@@ -7,15 +7,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Sensor Demo</name>
+    <name>Mobile App</name>
 
     <description>
         A sensor demonstration application
     </description>
 
-    <author href="http://www.worcester.ac.uk/discover/chris-bowers.html" email="c.bowers@worc.ac.uk">
-        Chris P. Bowers
-    </author>
 	
 	<!-- <gap:plugin name="org.apache.cordova.device-motion" /> -->
 	<plugin name="cordova-plugin-device-motion" spec="~1.2.4" />

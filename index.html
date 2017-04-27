@@ -30,10 +30,24 @@
 <p> Here you can have your picture on this page along with your name! </p>
 <br>
 
-<!-- Embedded Video, this is done by using the videos ID number NOT the URL for the video -->
-<iframe width="550" height="360"
-src="https://www.youtube.com/embed/BGtROJeMPeE">
-</iframe>
+  <div data-role="content">
+ 
+ 		<label for="flipswitch">Sensor:</label>
+      	<select name="flipswitch" id="flipswitch" data-role="slider">
+        	<option value="off">Off</option>
+        	<option value="on">On</option>
+      	</select>
+       
+      	<label for="textarea">Current values:</label>
+   		<input type="text" name="sensorX" id="sensorX" value=""  />
+   		<input type="text" name="sensorY" id="sensorY" value=""  />
+   		<input type="text" name="sensorZ" id="sensorZ" value=""  />
+		<input type="text" name="timestamp" id="timestamp" value=""  />
+   		
+        <label for="slider">Update (ms):</label>
+    	<input id="slider" type="range" name="slider" value="3000" min="0" max="10000" />
+    
+  </div>
 
 </center>
 </div>
